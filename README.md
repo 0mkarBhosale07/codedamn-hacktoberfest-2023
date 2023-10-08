@@ -1,6 +1,6 @@
 # codedamn-hacktoberfest-2023
-Codedamn Hacktoberfest 2023 solved questions
 
+Codedamn Hacktoberfest 2023 solved questions
 
 # Day 1: Find the Bug
 
@@ -9,7 +9,6 @@ You have been given a code snippet in the index.js file. You can view the file i
 Running this code gives an error, instead of logging the text, can you find out what's the bug with this code and fix it. You should try to add as minimal characters as possible to fix this.
 
 Hint: Think about what happens when square brackets are used after a string
-
 
 # Day 2: Generating Hex Codes
 
@@ -25,11 +24,30 @@ c3 ➔ Represents the Green (G) component in the hexadecimal color system.
 d1 ➔ Represents the Blue (B) component in the hexadecimal color system.
 For testing the code you've written the function should be exported, do not change the default export of the function.
 
-
 # Day 3: React Counter Bug
 
 Sam is learning React and wanted to create a counter that when clicked on a button increments 3 times. The code written by Sam has been shared with you.
 
 Help Sam figure out why the code only increments by one count instead of 3.
 
+# Day 4: Jokes API
 
+José is trying to make the people who visit their blog page laugh a little, so he's attempting to use a Jokes API to fetch a random joke and display it in the sidebar of his blog.
+
+However, he seems to have hit a roadblock, can you help him debug why he's unable to receive a proper resonse from the Jokes API
+
+The API link used in the getJoke() function is https://official-joke-api.appspot.com/random_joke
+
+Here is a sample response from the api
+
+{
+"type": "general",
+"setup": "What do you get when you cross a rabbit with a water hose?",
+"punchline": "Hare spray.",
+"id": 234
+}
+The getJoke() function should return an object with properties setup and punchline to be shown to visitors on the blog.
+
+To complete this challenge you should be familar with the basics of axios which is used here for fetching the joke data.
+
+Make sure that you return a proper object without adding any additional properties to the return type of this function

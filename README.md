@@ -61,3 +61,28 @@ She has written her code (which is shared with you in the index.js file), but th
 A sample array values are already provided to you to aid you in debugging this. Once you've fixed the bug, run the tests to verify if the bug has been fixed. You have to try to change the as minimal as possible and completely avoid re-writing the code.
 
 All the best!
+
+# Day 6: Critical Temperature
+
+Your current production codebase has a few critical utility functions which have been assigned the task to fix the bug.
+
+Desired Functionality
+Here is a detailed breakdown of the shouldAlertOwner() function
+
+This function accepts two parameters: durationInWarehouse and temperature.
+
+There are some given constants that define critical values:
+
+CRITICAL_TEMPERATURE is set at 30°C. If the temperature in the warehouse exceeds this, there may be a risk to the goods.
+SECONDARY_TEMPERATURE thresholds at 25°C and works in combination with time duration.
+CRITICAL_DURATION is set at 7 days. If items are stored in the warehouse beyond this period under certain conditions, there may be a risk to the goods.
+The function then checks two conditions and will return true (indicating an alert should be sent to the owner) if either of the conditions are met:
+
+First, it checks if temperature overtops CRITICAL_TEMPERATURE (30°C).
+Second, it checks if the durationInWarehouse is more than CRITICAL_DURATION (7 days) and also if the temperature exceeds SECONDARY_TEMPERATURE (25°C). If both these conditions are met, an alert should be sent.
+In both aforementioned cases, the function suggests potential risk, hence the function will return true, triggering an alert. If neither of the conditions met, it will return false, meaning there's no need to alert the owner.
+
+Task
+Your task is to debug the function and fix it by changing as minimal code as possible. You have to make sure that function meets these criteria give above.
+
+All the best!

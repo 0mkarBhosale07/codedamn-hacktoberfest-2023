@@ -86,3 +86,9 @@ Task
 Your task is to debug the function and fix it by changing as minimal code as possible. You have to make sure that function meets these criteria give above.
 
 All the best!
+
+# Day 7: Add and Sort
+
+Max was learning JavaScript, he attempted to create a one-liner function that would add a number to a given array and return the sorted array eliminating the need to do this continuously when required. However, he seems to have hit a roadblock with the code he was written, it isn't performing as expected.
+
+Can you help him about by debugging his code? Try and understand the root cause of the problem and update the function logic.

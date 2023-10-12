@@ -92,3 +92,11 @@ All the best!
 Max was learning JavaScript, he attempted to create a one-liner function that would add a number to a given array and return the sorted array eliminating the need to do this continuously when required. However, he seems to have hit a roadblock with the code he was written, it isn't performing as expected.
 
 Can you help him about by debugging his code? Try and understand the root cause of the problem and update the function logic.
+
+# Day 8: Template Literals
+
+You're currently consulting a Pet Shop along with your Colleage Shannon. She wrote a template literal for the reminder email which will be sent the pet Owners as a reminder for their next visit after their current appointment as completed.
+
+When testing the code Shannon has encountered a problem, the template literal is not being replaced in the second occurence of the string, can you help her out and fix the bug!
+
+Please make sure that you don't update the reminderTemplate string by mistake, the tests are written to direct string comparision.

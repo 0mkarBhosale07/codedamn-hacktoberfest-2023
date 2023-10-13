@@ -100,3 +100,15 @@ You're currently consulting a Pet Shop along with your Colleage Shannon. She wro
 When testing the code Shannon has encountered a problem, the template literal is not being replaced in the second occurence of the string, can you help her out and fix the bug!
 
 Please make sure that you don't update the reminderTemplate string by mistake, the tests are written to direct string comparision.
+
+# Day 9: Initializing Matrix
+
+Pushing an element to the Matrix Row Array should only update the mentioned cell
+
+Initializing a matrix with different integers works as expected
+
+Initializing a matrix with negative numbers & zero should throw an error
+
+Initializing a matrix with non-integers should throw an error
+
+Initializing a matrix with null and undefined values should throw an error

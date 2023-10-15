@@ -130,3 +130,11 @@ All the best!
 If you're not familiar with TypeScript, don't worry. You should be able to solve this challenge without understanding the TypeScript parts of this app.
 
 Do not remove any data-testid properties added in the code, removing them would fail the tests immediately. They're used for testing the code written by you
+
+# Day 11: Logging Numbers
+
+Alex, is working on a web application. The application is supposed to fetch some data, process it, and then present the data in a web page at a regular interval of 500 milliseconds.
+
+Alex wrote the following boilerplate code, but when he runs it, the list items do not contain any text content instead of the expected processed data. He is unsure what went wrong and needs help to fix the bug. Can you help him fix the bug?
+
+Once the bug is fixed the data returned should be logged to the console at a 500 milliseconds Interval.

@@ -138,3 +138,13 @@ Alex, is working on a web application. The application is supposed to fetch some
 Alex wrote the following boilerplate code, but when he runs it, the list items do not contain any text content instead of the expected processed data. He is unsure what went wrong and needs help to fix the bug. Can you help him fix the bug?
 
 Once the bug is fixed the data returned should be logged to the console at a 500 milliseconds Interval.
+
+# Day 12: Zoe's Task List
+
+Zoe started learning JavaScript DOM Manipulation and decided to put her new skill to practice by buildilng the most classic To-Do List.
+
+She made good progress and made a functional To-Do List that can add new todo items to the list. Clicking on the Add Task button adds a li element to the DOM.
+
+However, she seems to have a hit a roadblock with the task completion. She has double checked her code, but couldn't find any bug.
+
+Can you help her solve the bug!

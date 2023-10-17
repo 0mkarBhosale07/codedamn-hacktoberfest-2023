@@ -148,3 +148,11 @@ She made good progress and made a functional To-Do List that can add new todo it
 However, she seems to have a hit a roadblock with the task completion. She has double checked her code, but couldn't find any bug.
 
 Can you help her solve the bug!
+
+# Day 13: Filter Tasks
+
+Zoe who recently started learning JavaScript, continued working on her first project Task List. She's built a simple task list app and wanted to introduce filter functionality in her project, so that she can group the tasks based on their status.
+
+She has implemented the logic for the filters in her code, but logic seems to be working as expected. Can you take a look at the code written by Zeo and correct it.
+
+Do not try to refactor the entire function written, try to identify the exact lines of code that are buggy and modify the lines to make the code functional. You have to change the minimum amount of code possible to fix the challenge

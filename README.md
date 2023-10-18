@@ -156,3 +156,11 @@ Zoe who recently started learning JavaScript, continued working on her first pro
 She has implemented the logic for the filters in her code, but logic seems to be working as expected. Can you take a look at the code written by Zeo and correct it.
 
 Do not try to refactor the entire function written, try to identify the exact lines of code that are buggy and modify the lines to make the code functional. You have to change the minimum amount of code possible to fix the challenge
+
+# Day 14: CV Creator
+
+Samir has been trying to create a new CV Creator App that takes in Education Input throughout an Employee's Career and display them in a small container element.
+
+However, he seems to have been encountering errors from React when rendering the newly created Components, can you help him debug the problem and fix it for him?
+
+He has also logged the JSON structure of the Data in the UI for you

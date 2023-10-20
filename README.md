@@ -164,3 +164,11 @@ Samir has been trying to create a new CV Creator App that takes in Education Inp
 However, he seems to have been encountering errors from React when rendering the newly created Components, can you help him debug the problem and fix it for him?
 
 He has also logged the JSON structure of the Data in the UI for you
+
+# Day 15: Express Server
+
+Bryan is trying to setup a simple route (get-data) in his express server to send data to the user end. However, before diving into the implementation of the data. He's trying to setup proper error handling for his route.
+
+Can you help him return the proper status code when there is an error from the server instead of return 200
+
+You can use the terminal to restart the server with the updated code & you can manually test the endpoing using the browser preview given to you

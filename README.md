@@ -172,3 +172,11 @@ Bryan is trying to setup a simple route (get-data) in his express server to send
 Can you help him return the proper status code when there is an error from the server instead of return 200
 
 You can use the terminal to restart the server with the updated code & you can manually test the endpoing using the browser preview given to you
+
+# Day 16: Discount Calculation
+
+Samuel is working on building a simple shopping cart app with a discount functionality to give a generous 10% discount for users who are buying from his store for today.
+
+He had worked on a simple Discount Button for his app. However, there seems to a problem with the discount calculation can you help him fix the problem?
+
+Do not edit the html of this lab, the text and identifiers displayed on this page are used for testing your code

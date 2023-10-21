@@ -180,3 +180,13 @@ Samuel is working on building a simple shopping cart app with a discount functio
 He had worked on a simple Discount Button for his app. However, there seems to a problem with the discount calculation can you help him fix the problem?
 
 Do not edit the html of this lab, the text and identifiers displayed on this page are used for testing your code
+
+# Day 17: Number Parser
+
+Zach is working on creating a simple number parser app which converts any given string and show the valid Decimal and Hexadecimal number.
+
+Can you help him fix the series of bugs that are currently present in his current implementation and help his code work across all possible scenarios.
+
+Make sure to checkout the challenges page for all the edge cases that are being tested to verify if the functionality is working as intented. If you're not familar with any of the functions that are being used in the code, try going through their documentation from the MDN Docs
+
+Do not change any text / content that is being displayed on the HTML Page as they are used for string matching while testing the code.

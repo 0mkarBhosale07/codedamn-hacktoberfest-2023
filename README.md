@@ -190,3 +190,20 @@ Can you help him fix the series of bugs that are currently present in his curren
 Make sure to checkout the challenges page for all the edge cases that are being tested to verify if the functionality is working as intented. If you're not familar with any of the functions that are being used in the code, try going through their documentation from the MDN Docs
 
 Do not change any text / content that is being displayed on the HTML Page as they are used for string matching while testing the code.
+
+# Day 18: Generating ULIDs
+
+John has recently learned how to use ORM's for writing SQL Queries in his backend code. He wanted to put this to test by creating a simple User Account and showing the Generated [ULID] in the login page. However, he seems to have run into a few issues and a configuration error with the code he's written.
+
+Can you take a look at the error message and help him bring his app to life!
+
+The project uses a simple Next.js Project along with TypeScript and Tailwind CSS, with Prisma for Schema Generation and Kysely as the ORM, this lab uses SQLite Database.
+
+It's recommended that you go through the packages used and the quick start guides of these libraires, if you're not familiar with them. They should help you understand what could have gone wrong.
+
+Prisma Getting Started Example
+Kysely Getting Started Guide
+Prisma - Kysely Package
+If you're not completely familiar with TypeScript, you don't need to worry about it. You don't need to write any new Types to pass this challenge.
+
+HINT: If you're getting a cryptic error that you can't understand, try checking the src/db/database.ts file and the Database Path.

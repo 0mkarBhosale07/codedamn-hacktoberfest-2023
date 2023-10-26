@@ -9,8 +9,10 @@ export default function Counter() {
 				<h1 data-testid="counter">{number}</h1>
 				<button
 					data-testid="incrementButton"
+	// Issue this Line Callback function 
 					onClick={() => {
-						setNumber(number + 3);
+						// Use a callback function to increment by 3
+						setNumber((prevNumber) => prevNumber + 3);
 					}}
 				>
 					Increment 3 times
@@ -19,3 +21,4 @@ export default function Counter() {
 		</>
 	);
 }
+

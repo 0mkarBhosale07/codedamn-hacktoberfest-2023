@@ -207,3 +207,20 @@ Prisma - Kysely Package
 If you're not completely familiar with TypeScript, you don't need to worry about it. You don't need to write any new Types to pass this challenge.
 
 HINT: If you're getting a cryptic error that you can't understand, try checking the src/db/database.ts file and the Database Path.
+
+# Day 19: API Requests
+
+Alvin just learnt about the Axios library and wanted to run a quick code snippet to query a few values from different APIs that have no relation.
+
+You can access the code written by Alvin in the index.js file in your editor. There seems to be a quite a few bugs present in the code snippet written by him. Can you help him fix and bugs and help Alvin understand why each bug was caused!
+
+Alvin wanted the fetchData function to return a random Title from the Json Placeholder API, a valid dog image from the dog.ceo api and the current Bitcoin value from coindesk api.
+
+{
+randomTitle: string,
+imageLink: string // make sure that this is a valid URL link from the domain,
+bitcoinPrice: number
+}
+Make sure to export the function using ESM Syntax. For the test cases to run and pass the lab.
+
+TIP: You can go through the file explorer tab to view the rest of the files that are part of this labs.

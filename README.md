@@ -224,3 +224,11 @@ bitcoinPrice: number
 Make sure to export the function using ESM Syntax. For the test cases to run and pass the lab.
 
 TIP: You can go through the file explorer tab to view the rest of the files that are part of this labs.
+
+# Day 20: State Mismatch
+
+Ed has just started learning react, he seems to have run into a roadblock when trying to console.log the latest state of count . It always shows the previous button's state instead of the current value.
+
+Can you find out and understand why his code is not working as Ed Expected & fix it for him.
+
+NOTE: The test cases for this lab will pass if you attempt to increment the count when console logging, however that is not the right solution for this lab. Think about how react state updates when a setter function is called

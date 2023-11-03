@@ -232,3 +232,7 @@ Ed has just started learning react, he seems to have run into a roadblock when t
 Can you find out and understand why his code is not working as Ed Expected & fix it for him.
 
 NOTE: The test cases for this lab will pass if you attempt to increment the count when console logging, however that is not the right solution for this lab. Think about how react state updates when a setter function is called
+
+# Day 21: Fixing Imports
+
+Ajay just began learning how ES6 imports work. He tried setting up a simple example to try out his understanding of using imports in JavaScript, but he seem to have not been able to make the code work.

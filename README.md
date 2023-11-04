@@ -236,3 +236,20 @@ NOTE: The test cases for this lab will pass if you attempt to increment the coun
 # Day 21: Fixing Imports
 
 Ajay just began learning how ES6 imports work. He tried setting up a simple example to try out his understanding of using imports in JavaScript, but he seem to have not been able to make the code work.
+
+# Day 22: Inheritance Problem
+
+Kirk, was attempting to solve a problem related to JavaScript Inheritance, the code written by Kirk has been shared with you, he's unable to figure out why his lab isn't passing the given challenges of the Problem.
+
+Can you help Kirk figure out what's wrong with his code and help fix it for him
+
+Concepts
+Make sure that you've familiar with these topics before helping Kirk figure out what's wrong with his code.
+
+JavaScript Classes: A class is a type of function, defined with the class keyword. It's a blueprint for creating objects.
+
+Class Constructors: The constructor method is a special method for creating and initializing objects in a class.
+
+JavaScript Methods: JavaScript methods are actions that can be performed on objects.
+
+Class Inheritance: Class Inheritance is when a class inherits characteristics from another class.

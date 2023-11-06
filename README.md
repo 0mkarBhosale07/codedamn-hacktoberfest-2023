@@ -304,3 +304,11 @@ Hint: Consider using aggregation functions and grouping to achieve the desired r
 Notes:
 Carefully read each challenge's description. Pay close attention to the expected output and the order of results.
 Always ensure that your SQL queries match the specified requirements to pass the evaluation.
+
+# Day 24: Hashing Functions
+
+Lois was implementing various hash functions for her personal project. The return value of the functions doesn't seem to be correct. Can you help her fix the problem with the Hash Functions.
+
+If you need help learning about Hash Functions, check out it's documentation
+
+NOTE: Make sure you're exporting all the functions that you've created using ESM Syntax

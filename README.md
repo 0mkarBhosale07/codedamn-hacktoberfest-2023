@@ -253,3 +253,54 @@ Class Constructors: The constructor method is a special method for creating and 
 JavaScript Methods: JavaScript methods are actions that can be performed on objects.
 
 Class Inheritance: Class Inheritance is when a class inherits characteristics from another class.
+
+# Day 23: Problem with Data Depulciation
+
+Rahul was attempting to solve a challenging SQL problem. However, he seems to have a hit a roadblock with the query written. Can you help him solve the problem and fix his query.
+
+The below information is the Instructions of the lab Solved by Rahul
+
+Dataset Overview:
+The Chinook dataset emulates a digital media store, containing tables related to albums, artists, tracks, invoices, and more.
+
+Here are some key tables you'll be working with:
+
+"Artist": Contains artist details.
+"Album": Holds information about each album, linked to artists.
+"Track": Details about individual tracks, their genres, media types, and the albums they belong to.
+"Customer": Data about customers.
+"Invoice": Billing information for purchases made by customers.
+Environment:
+This lab utilizes SQLite. Ensure you're familiar with its syntax and functionalities.
+Make sure to stick to the exact names for tables and columns as defined in the Chinook database schema.
+Always use double quotes for column and table names for clarity.
+Challenges:
+Your main task is to complete a set of SQL challenges. Each challenge will test a specific aspect of SQL, and you're expected to write SQL queries to fetch, analyze, or manipulate data from the Chinook dataset.
+
+Objective: Retrieve the most recent invoice date for every customer in the Chinook database.
+
+Tables Used:
+
+Customer
+Invoice
+Instructions:
+
+Join the Customer table with the Invoice table using the appropriate key.
+For each customer, determine and select the most recent invoice date.
+Your result should display the following columns:
+CustomerId
+MaxInvoiceDate (this should be an alias for the latest invoice date for clarity)
+Output Specifications:
+
+Columns:
+
+CustomerId
+MaxInvoiceDate
+Order:
+
+The results should be ordered by CustomerId in ascending order.
+Hint: Consider using aggregation functions and grouping to achieve the desired result. Ensure all columns are named accurately as described to pass the evaluation.
+
+Notes:
+Carefully read each challenge's description. Pay close attention to the expected output and the order of results.
+Always ensure that your SQL queries match the specified requirements to pass the evaluation.

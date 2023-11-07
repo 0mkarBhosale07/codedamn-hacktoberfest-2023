@@ -312,3 +312,7 @@ Lois was implementing various hash functions for her personal project. The retur
 If you need help learning about Hash Functions, check out it's documentation
 
 NOTE: Make sure you're exporting all the functions that you've created using ESM Syntax
+
+# Day 25: Creating JWTs
+
+Max just learned how JWTs work and implemented a rudimentary version of JWT verfication. However, there seems to be a very weird bug that Max is unable to solve, can you help him fix the issue.

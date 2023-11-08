@@ -316,3 +316,9 @@ NOTE: Make sure you're exporting all the functions that you've created using ESM
 # Day 25: Creating JWTs
 
 Max just learned how JWTs work and implemented a rudimentary version of JWT verfication. However, there seems to be a very weird bug that Max is unable to solve, can you help him fix the issue.
+
+# Day 26: File Permissions
+
+Rahul, just learned about handling and mutating file permissions via Node.js. He attempt to sovle a challenge to test his newly acquired knowledge about file permissions.
+
+The code written by rahul, doesn't pass all the test cases, can you help him figure out why the tests are failing and fix the code for him.

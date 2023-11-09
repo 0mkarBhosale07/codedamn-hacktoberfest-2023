@@ -322,3 +322,30 @@ Max just learned how JWTs work and implemented a rudimentary version of JWT verf
 Rahul, just learned about handling and mutating file permissions via Node.js. He attempt to sovle a challenge to test his newly acquired knowledge about file permissions.
 
 The code written by rahul, doesn't pass all the test cases, can you help him figure out why the tests are failing and fix the code for him.
+
+# Day 27: Problems with CTE
+
+Mia was attempting to solve an SQL challenge, the query written by her doesn't seem to pass all the test cases, can you help Mia figure out what's wrong with her query and fix it?
+
+The below text is the Instructions written for the SQL challenge that Mia is solving.
+
+Create a chain of three Common Table Expressions (CTEs) to perform successive transformations on the invoice data.
+
+Table to be used: Invoice
+
+Instructions:
+
+Use the Invoice table from the Chinook database.
+Create a sequence of three CTEs.
+The first CTE (CTE1) should take the Total column from the Invoice table and multiply it by 1.1, naming this new column TransformedTotal1.
+The second CTE (CTE2) should take the TransformedTotal1 column from CTE1 and multiply it by 0.9, naming this new column TransformedTotal2.
+The third CTE (CTE3) should take the TransformedTotal2 column from CTE2 and multiply it by 1.05, naming this new column TransformedTotal.
+The final output should have the columns:
+InvoiceId: Represents the ID of the invoice.
+TransformedTotal: The final transformed total after all the operations performed in the CTEs.
+The results should be ordered by the InvoiceId in ascending order.
+Expected Columns in Final Output:
+
+InvoiceId
+TransformedTotal
+Order By: InvoiceId

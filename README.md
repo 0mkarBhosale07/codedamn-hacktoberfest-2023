@@ -396,6 +396,24 @@ Window Functions: These are special SQL functions that perform calculations acro
 
 Your goal is to write an SQL query that accomplishes the given task. Remember, focus on the structure of your query, the use of aggregate functions, and the application of window functions where necessary. Good luck!
 
-# Day 30:
+# Day 30: Problem with Nth Highest Value
+
+Zach was attempting to solve a hard sql query problem without any hints. He was unable to solve the problem without the help of the hints. Based on the Challenge Instructions and Hints provided to you, can you help complete the query and pass the challenge?
+
+Zach Lab's Instructions
+Let's test your ability to work with ranking functions and subqueries to retrieve specific data points from a dataset.
+
+Instructions:
+
+From the Invoice table, retrieve the 3rd highest invoice total.
+Name the column in your result as ThirdHighestTotal.
+Your result should only contain this one column.
+Order your result by ThirdHighestTotal in descending order.
+Hints:
+
+You might want to use the ROW_NUMBER() function in combination with a subquery to achieve this.
+Remember to use ORDER BY in your subquery to rank the invoice totals in descending order.
+Filtering by the row number in your outer query will help you get the 3rd highest value.
+Always use double quotes for table and column names for clarity.
 
 # Day 31:

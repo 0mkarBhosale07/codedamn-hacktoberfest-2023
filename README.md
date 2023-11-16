@@ -349,3 +349,42 @@ Expected Columns in Final Output:
 InvoiceId
 TransformedTotal
 Order By: InvoiceId
+
+# Day 28: Problem with Aggregating Data
+
+Barry is attempting to solve an Aggregating Query for an SQL Challenge. The challenge details are shared below with you. Barry's query doesn't seem to pass the requirements and contains a few bugs. Can you help barry figure out the bugs and fix them.
+
+The goal here is to solve a set of challenges that revolve around querying a musical database.
+
+Database Details:
+The Chinook dataset simulates a digital music shop and contains information about albums, tracks, invoices, customers, and more.
+
+Important Notes:
+Exact Match: The column names in your final output must match exactly with the ones described in the challenge. Pay close attention to the column names and make sure they match what's required.
+
+Double Quotes: For clarity, always wrap table and column names with double quotes like "ColumnName".
+
+Ordering: Ensure that you always order your results as specified in the problem statement. This ensures that the output matches the expected results.
+
+Challenges
+Objective:
+
+Calculate a running total for each customer based on their invoices. This should reflect the cumulative sum of invoice totals for every customer over time.
+
+Instructions:
+
+Table Used: Use the Invoice table.
+Output Columns: Your result should have the following columns:
+CustomerId: The unique identifier of the customer.
+InvoiceDate: The date the invoice was created.
+RunningTotal: The cumulative sum of the invoice total for the specific customer up to and including the current invoice date.
+Ordering: Order your results first by CustomerId and then by InvoiceDate in ascending order.
+Hint:
+
+To achieve the desired output, you might need to perform a JOIN on the Invoice table with itself. Use the SUM aggregate function to calculate the running total. Ensure your final output has columns named CustomerId, InvoiceDate, and RunningTotal.
+
+# Day 29:
+
+# Day 30:
+
+# Day 31:

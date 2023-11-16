@@ -416,4 +416,19 @@ Remember to use ORDER BY in your subquery to rank the invoice totals in descendi
 Filtering by the row number in your outer query will help you get the 3rd highest value.
 Always use double quotes for table and column names for clarity.
 
-# Day 31:
+# Day 31: Problem with Dates
+
+Tim was given a SQL challenge to solve. Tim attempted to write a query by learning a few sql features. However, Tim wasn't able to pass the challenge's test with the query he has written. Can you help Tim fix his query and pass the challenges.
+
+The below is the Instructions of the challenges to help you familarize with the query written by Tim
+
+Your task is to calculate the difference in days between each invoice and the invoice that precedes it, for each customer.
+
+Final Columns
+CustomerId: The ID of the customer from the "Invoice" table.
+InvoiceDate: The date of the invoice from the "Invoice" table.
+DaysSinceLastInvoice: The difference in days between the current "InvoiceDate" and the preceding "InvoiceDate" for the same customer. Use SQLite's julianday function for this calculation. If there's no preceding invoice for a particular customer, this value should be null.
+SQL Features
+Utilize SQLite window functions like LAG(), OVER(), PARTITION BY.
+
+Your query should order the result first by "CustomerId", and then by "InvoiceDate".

@@ -383,7 +383,18 @@ Hint:
 
 To achieve the desired output, you might need to perform a JOIN on the Invoice table with itself. Use the SUM aggregate function to calculate the running total. Ensure your final output has columns named CustomerId, InvoiceDate, and RunningTotal.
 
-# Day 29:
+# Day 29: Problem with Analysing Variations
+
+Juan was attempting to solve a aggregation function queries and seem to have hit a roadblock with the challenge. Can you take a look at the query written by Juan and find out the reasoning for the bugs and fix them. The below is are the Instructions for the challenge Juan was attempting to solve.
+
+For each day, compute the total number of admissions. Additionally, calculate the difference in the number of admissions from the previous day.
+
+Concepts to understand:
+Aggregate Functions: These are SQL functions that perform a calculation on a set of values and return a single value. Examples include SUM(), COUNT(), AVG(), etc.
+
+Window Functions: These are special SQL functions that perform calculations across a set of rows related to the current row. An example in this exercise would be LAG(), which can fetch data from a previous row.
+
+Your goal is to write an SQL query that accomplishes the given task. Remember, focus on the structure of your query, the use of aggregate functions, and the application of window functions where necessary. Good luck!
 
 # Day 30:
 
